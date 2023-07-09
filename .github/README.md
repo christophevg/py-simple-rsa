@@ -11,6 +11,18 @@
 
 Any cryptographic library exposes all possibilities, and it should. But sometimes you just want a simple `sign` and `validate` API. That is what this wrapper module around the Cryptography module is. Nothing more, nothing less.
 
+## Minimal Survival Commands
+
+```console
+% pip install simple-rsa
+```
+
+When running from the repo (probably in some virtualenv) install cryptography and optionally `tox` is you want to run the tests:
+
+```console
+% pip install cryptography tox
+```
+
 ## Getting Started
 
 The module basically exposes the following functions:
