@@ -6,3 +6,4 @@ build
 .coverage
 .tox
 
+.python-version
